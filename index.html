@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <title>Telahoun Molla</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Stylish" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="script/index.css">
+    </head>
+    <body>
+        <div class="container justify-content-center">
+            <div class="row justify-content-center">
+                <img id="photo" src="image/tree.jpg">
+                <h1 id="name">Telahoun Molla</h1>
+                <hr id="horizentalLine">
+            </div>
+            <div class="row">                
+                <div id="content" style="width:100%; text-align: center">
+                    <h6 id="stmt"> A <strong class="specialWord" id="graduate">Graduate</strong> from the <strong class="specialWord" id="uofa">University of Arizona</strong> in<br> 
+                        <strong class="specialWord" id="mathematics">Applied Mathematics</strong> and <strong class="specialWord" id="ComputerScience">Computer Science</strong><br><br> 
+                        <strong class="specialWord" id="fullstack">Fullstack Developer</strong><br> 
+                        A <span class="specialWord" id="team">team player</span> who enjoys <span id="unknown" class="specialWord">exploring new ideas</span>
+                    </h6>
+                    <button type="button"  data-toggle="modal" data-target="#exampleModal3" class="btn btn-lg btn-light contactBtn">
+                        <i class="fa fa-envelope">&nbsp;Click to Contact</i>
+                    </button>
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:70px">
+                <div class="col-sm" id="workedForCol">
+                    <div id="workedForDiv">
+                        <p id="company" class="specialWord">Worked for</p>
+                        <a href="https://www.ibm.com/" target="_blank"><h5>IBM</h5></a>
+                        <a href="https://cybersponse.com/" target="_blank"><h5>Cybersponse</h5></a>
+                        <a href="https://asasolutions.com/" target="_blank"><h5>ASA</h5></a>
+                        <a href="https://www.intuit.com/company/" target="_blank"><h5>Intuit</h5></a>                            
+                        <a href="https://www.sunquestinfo.com/" target="_blank"><h5>Sunquest</h5></a>
+                    </div>
+                </div>
+                <div class="col-sm" id="technologiesUsedCol">
+                    <div id="technologiesUsedDiv">
+                        <p id="technology" class="specialWord">Technologies used</p>
+                        <a href="https://www.mongodb.com/" target="_blank"><h5>MongoDB</h5></a>
+                        <a href="https://expressjs.com/" target="_blank"><h5>Express</h5></a>
+                        <a href="https://angularjs.org/" target="_blank"><h5>Angular</h5></a> 
+                        <a href="https://nodejs.org/en/" target=_blank"><h5>Node</h5></a>
+                        <a href="https://www.mysql.com/" target="_blank"><h5>MySQL</h5></a>
+                    </div>
+                </div>
+                <div class="col-sm" id="projectsCol">
+                    <div id="projectsDiv">
+                        <p id="projects" class="specialWord">Projects</p>
+                        <a href="https://tmolla.github.io/Crystals-Collector/" target="_blank"><h5>Crystal Collector</h5></a>
+                        <a href="https://evening-escarpment-38132.herokuapp.com/" target="_blank"><h5>Eat-A-Fresh</h5></a>
+                        <a href="https://tmolla.github.io/RPG-Game/" target="_blank"><h5>RPG-Game</h5></a>
+                        <a href="https://powerful-woodland-22827.herokuapp.com/" target="_blank"><h5>Eat Da Burger</h5></a>
+                        <a href="https://secure-everglades-75450.herokuapp.com/" target="_blank"><h5>Friend Finder</h5></a>
+                        <a href="https://fizzymo.github.io/Number-1-Team/" target="_blank"><h5>Happy News</h5></a>
+                    </div>
+                </div>            
+            </div>
+
+    <!--         <nav class="navbar fixed-bottom justify-content-center navbar-dark bg-light" style="background-color:gray !important">
+                <div class="footer-copyright text-center py-3" style="color:black">© 2018 Copyright:
+                    <a style="color:black" href="#">Telahoun Molla</a>
+                </div>
+            </nav>
+    -->        
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModal3Label" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModal3Label">Telahoun Molla <br><p>(602)330-7856</p></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body">
+                        <form action="mailto:telahounmolla@gmail.com" method="post" enctype="text/plain">
+                            <div class="messages"></div>                    
+                            <div class="controls">                            
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="form_name">Name *</label>
+                                            <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your name *" required="required" data-error="Firstname is required.">
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="form_email">E-mail *</label>
+                                            <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label for="form_message">Message *</label>
+                                            <textarea id="form_message" name="message" class="form-control" placeholder="Please enter your message here" rows="4" required="required" data-error="Please, leave us a message."></textarea>
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>       
+                            <button type="submit" class="btn btn-primary" value="Send">Submit</button>                    
+                        </form>
+                                
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+                </div>
+            </div>
+        <nav class="navbar fixed-bottom justify-content-center navbar-dark bg-light" style="opacity:0.5; background-color:gray !important">
+                <div class="footer-copyright text-center py-3" style="color:black">© 2018 Copyright:
+                    <a style="color:black" href="#">Telahoun Molla</a>
+                </div>
+        </nav> 
+    </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+    </body>
+</html>

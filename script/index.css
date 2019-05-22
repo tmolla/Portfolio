@@ -1,0 +1,80 @@
+* { 
+    font-family:stylish;
+}
+html, body{
+    background-color: black;
+    color: white;
+}
+#photo {
+    width:300px; height:300px; 
+    border-radius: 50%; 
+    margin-top:10px;
+}
+
+#name {
+    text-align:center; 
+    width: 100%; 
+    margin-bottom: 0px;
+}
+
+#horizentalLine {
+    width:25%; 
+    background-color: white; margin-top:0px; 
+    margin-bottom:50px"
+}
+#stmt {
+    line-height: 25pt;
+    word-spacing: 10px;
+    font-size: large;
+}
+
+#company, #technology, #projects{
+    border-bottom:1px solid white
+}
+#workedForDiv, #technologiesUsedDiv, #projectsDiv{
+    height:100%; 
+    padding:10px; 
+    color:white; 
+    background-color: black; 
+    opacity: 0.7
+}
+#workedForCol{
+    padding:0px; 
+    margin:10px; 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-image:url("../image/work.jpeg");
+}
+
+#technologiesUsedCol{
+    padding:0px; 
+    margin:10px; 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-image:url("../image/tech.jpeg");
+}
+
+#projectsCol{
+    padding:0px; 
+    margin:10px; 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-image:url("../image/projects.jpeg");
+}
+
+.specialWord{
+    font-size:xx-large;
+}
+.contactBtn{
+    margin:20px;
+}
+
+a:link, a:link:active, a:visited { 
+    color: white;
+    text-decoration:none;
+    cursor: auto;
+}
+
+a:hover{
+    color:orange; 
+}
